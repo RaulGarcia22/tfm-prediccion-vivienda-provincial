@@ -1,0 +1,205 @@
+{
+  "core": {
+    "mivau_valor_tasado": {
+      "description": "Target: valor medio tasado de vivienda por provincia y trimestre.",
+      "url": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/VDP006_01.csv",
+      "filename": "mivau_valor_tasado_VDP006_01.csv",
+      "format": "csv",
+      "frequency": "quarterly",
+      "geography": "province"
+    },
+    "mivau_transacciones": {
+      "description": "Número y valor de transacciones inmobiliarias de vivienda.",
+      "url": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/VDP003_01.csv",
+      "filename": "mivau_transacciones_VDP003_01.csv",
+      "format": "csv",
+      "frequency": "quarterly",
+      "geography": "province"
+    },
+    "mivau_construccion": {
+      "description": "Viviendas iniciadas y terminadas, libres y protegidas; el fichero abierto usa año y mes.",
+      "url": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/VDP005_01.csv",
+      "filename": "mivau_construccion_VDP005_01.csv",
+      "format": "csv",
+      "frequency": "monthly",
+      "geography": "province"
+    },
+    "ine_hipotecas": {
+      "description": "Número e importe de hipotecas por provincia y mes.",
+      "url": "https://www.ine.es/wstempus/xlsx/es/DATOS_TABLA/76317",
+      "filename": "ine_hipotecas_76317.xlsx",
+      "format": "xlsx",
+      "frequency": "monthly",
+      "geography": "province",
+      "table_id": 76317
+    },
+    "ine_epa_provincial": {
+      "description": "Tasas de actividad, paro y empleo por provincia, sexo y trimestre.",
+      "url": "https://www.ine.es/wstempus/xlsx/es/DATOS_TABLA/65349",
+      "filename": "ine_epa_provincial_65349.xlsx",
+      "format": "xlsx",
+      "frequency": "quarterly",
+      "geography": "province",
+      "table_id": 65349
+    },
+    "ine_poblacion": {
+      "description": "Población residente por provincia, fecha, sexo y edad.",
+      "url": "https://www.ine.es/wstempus/xlsx/es/DATOS_TABLA/59589",
+      "filename": "ine_poblacion_59589.xlsx",
+      "format": "xlsx",
+      "frequency": "quarterly",
+      "geography": "province",
+      "table_id": 59589
+    },
+    "ine_poblacion_extranjera": {
+      "description": "Población residente española/extranjera por provincia y trimestre.",
+      "url": "https://www.ine.es/wstempus/xlsx/es/DATOS_TABLA/59591",
+      "filename": "ine_poblacion_extranjera_59591.xlsx",
+      "format": "xlsx",
+      "frequency": "quarterly",
+      "geography": "province",
+      "table_id": 59591
+    },
+    "ine_turismo_hoteles": {
+      "description": "Viajeros y pernoctaciones hoteleras por provincia y mes.",
+      "url": "https://www.ine.es/wstempus/xlsx/es/DATOS_TABLA/67190",
+      "filename": "ine_turismo_hoteles_67190.xlsx",
+      "format": "xlsx",
+      "frequency": "monthly",
+      "geography": "province",
+      "table_id": 67190
+    },
+    "ine_ipc_provincial": {
+      "description": "Tasas de variación del IPC general por provincia y mes.",
+      "url": "https://www.ine.es/wstempus/xlsx/es/DATOS_TABLA/76143",
+      "filename": "ine_ipc_provincial_76143.xlsx",
+      "format": "xlsx",
+      "frequency": "monthly",
+      "geography": "province",
+      "table_id": 76143
+    },
+    "bde_tipos_interes": {
+      "description": "Euríbor, tipos oficiales del BCE y otros tipos mensuales.",
+      "url": "https://www.bde.es/webbe/es/estadisticas/compartido/datos/csv/cal_umv_mfi001.csv",
+      "filename": "bde_tipos_interes_mensuales.csv",
+      "format": "csv",
+      "frequency": "monthly",
+      "geography": "national"
+    },
+    "ign_provincias": {
+      "description": "Metadatos estáticos: código, superficie, capital, CCAA y costa.",
+      "url": "https://www.ign.es/resources/ane/Informacion_Geografica_Destacada/IGN_INFOGEO_PROVINCIAS.xlsx",
+      "filename": "ign_provincias.xlsx",
+      "format": "xlsx",
+      "frequency": "static",
+      "geography": "province"
+    }
+  },
+  "optional": {
+    "ine_compraventas": {
+      "description": "Compraventas de vivienda nueva/usada y libre/protegida por provincia y mes.",
+      "url": "https://www.ine.es/wstempus/xlsx/es/DATOS_TABLA/6150",
+      "filename": "ine_compraventas_6150.xlsx",
+      "format": "xlsx",
+      "frequency": "monthly",
+      "geography": "province",
+      "table_id": 6150
+    },
+    "ine_paro_juvenil_ccaa": {
+      "description": "Paro por grupos de edad a nivel CCAA; puede asignarse a sus provincias, etiquetándolo como variable autonómica.",
+      "url": "https://www.ine.es/wstempus/xlsx/es/DATOS_TABLA/65334",
+      "filename": "ine_paro_juvenil_ccaa_65334.xlsx",
+      "format": "xlsx",
+      "frequency": "quarterly",
+      "geography": "autonomous_community",
+      "table_id": 65334
+    },
+    "mivau_precio_suelo": {
+      "description": "Precio medio del suelo por ámbito geográfico, tamaño municipal y trimestre.",
+      "url": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/VDP004_01.csv",
+      "filename": "mivau_precio_suelo_VDP004_01.csv",
+      "format": "csv",
+      "frequency": "quarterly",
+      "geography": "province"
+    },
+    "mivau_vivienda_protegida_rehabilitacion": {
+      "description": "Actuaciones de vivienda protegida y rehabilitación por provincia y mes.",
+      "url": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/VDP007_01.csv",
+      "filename": "mivau_vivienda_protegida_VDP007_01.csv",
+      "format": "csv",
+      "frequency": "monthly",
+      "geography": "province"
+    },
+    "ine_poblacion_historica": {
+      "description": "Población provincial anual histórica del Padrón a 1 de enero.",
+      "url": "https://www.ine.es/wstempus/xlsx/es/DATOS_TABLA/2852",
+      "filename": "ine_poblacion_historica_2852.xlsx",
+      "format": "xlsx",
+      "frequency": "annual",
+      "geography": "province",
+      "table_id": 2852
+    },
+    "ine_poblacion_edad_historica": {
+      "description": "Población provincial anual por edad simple, nacionalidad y sexo desde 1998.",
+      "url": "https://www.ine.es/jaxi/files/_px/es/csv_bdsc/t20/e245/p08/03003.csv",
+      "filename": "ine_poblacion_edad_historica_03003.csv",
+      "format": "csv",
+      "frequency": "annual",
+      "geography": "province"
+    },
+    "ine_censo_anual_edad": {
+      "description": "Censo anual 2021-2025 por provincia, sexo, edad simple y nacionalidad.",
+      "url": "https://www.ine.es/wstempus/xlsx/es/DATOS_TABLA/68519",
+      "filename": "ine_censo_anual_edad_68519.xlsx",
+      "format": "xlsx",
+      "frequency": "annual",
+      "geography": "province",
+      "table_id": 68519
+    },
+    "ine_renta_hogares": {
+      "description": "Renta neta media por persona y hogar por provincia.",
+      "url": "https://www.ine.es/wstempus/xlsx/es/DATOS_TABLA/53689",
+      "filename": "ine_renta_hogares_53689.xlsx",
+      "format": "xlsx",
+      "frequency": "annual",
+      "geography": "province",
+      "table_id": 53689
+    },
+    "ine_pib_provincial": {
+      "description": "PIB y VAB por ramas de actividad y provincia.",
+      "url": "https://www.ine.es/wstempus/xlsx/es/DATOS_TABLA/tpx/76926",
+      "filename": "ine_pib_provincial_76926.xlsx",
+      "format": "xlsx",
+      "frequency": "annual",
+      "geography": "province",
+      "table_id": 76926
+    },
+    "ine_empleo_provincial": {
+      "description": "Empleo total y asalariado por provincia y rama de actividad.",
+      "url": "https://www.ine.es/wstempus/xlsx/es/DATOS_TABLA/tpx/76927",
+      "filename": "ine_empleo_provincial_76927.xlsx",
+      "format": "xlsx",
+      "frequency": "annual",
+      "geography": "province",
+      "table_id": 76927
+    },
+    "ine_saldos_migratorios": {
+      "description": "Saldo migratorio exterior e interprovincial por provincia.",
+      "url": "https://www.ine.es/wstempus/xlsx/es/DATOS_TABLA/69765",
+      "filename": "ine_saldos_migratorios_69765.xlsx",
+      "format": "xlsx",
+      "frequency": "annual",
+      "geography": "province",
+      "table_id": 69765
+    }
+  },
+  "manual": {
+    "aeat_salarios_provinciales": {
+      "description": "Salario medio anual, asalariados y percepciones por provincia.",
+      "url": "https://sede.agenciatributaria.gob.es/Sede/estadisticas/mercado-trabajo-pensiones.html",
+      "frequency": "annual",
+      "geography": "province",
+      "note": "La URL de cada tabla cambia por ejercicio; conviene descargar por año o automatizar después."
+    }
+  }
+}

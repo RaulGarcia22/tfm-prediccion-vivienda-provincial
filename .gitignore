@@ -1,0 +1,34 @@
+# Entorno local y archivos del editor
+.venv/
+venv/
+.jupyter/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+Microsoft/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+
+# Credenciales y configuración personal
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Archivos temporales y resultados intermedios de ejecución
+*.part
+*.tmp
+*.log
+.delivery*
+# Los datos originales y todos los resultados se conservan únicamente en local
+/data/
+archive/
+
+# Paquete de entrega local; el repositorio conserva los archivos originales
+/TFM_codigo_entrega.zip

@@ -1,0 +1,3 @@
+# Los manifiestos verifican los bytes exactos del código y de los datos.
+# Evita que Git cambie los saltos de línea al clonar en otro sistema.
+* -text
